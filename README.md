@@ -67,3 +67,7 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+## History
+- v1.0 2021.07.11 originally created by [create-nuxt-app](https://ja.nuxtjs.org/docs/2.x/get-started/installation#create-nuxt-app-%E3%82%92%E4%BD%BF%E3%81%86)
+- v2.0 2021.07.12 split default layouts to several components.
