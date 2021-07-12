@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <Nabdraw
+    <NavDraw
       :drawer="drawer"
       :items="items"
       :miniVariant="miniVariant"
@@ -21,7 +21,7 @@
         </v-container>
       </slot>
     </v-main>
-    <RNabdraw
+    <RNavDraw
       :drawer="rightDrawer"
     />
     <Footer
@@ -31,15 +31,15 @@
 </template>
 
 <script>
-  import Nabdraw from '/components/Nabdraw.vue'
-  import RNabdraw from '/components/RNabdraw.vue'
+  import NavDraw from '/components/NavDraw.vue'
+  import RNavDraw from '/components/RNavDraw.vue'
   import AppBar from '/components/AppBar.vue'
   import Footer from '/components/Footer.vue'
 
   export default {
     components: {
-      Nabdraw,
-      RNabdraw,
+      NavDraw,
+      RNavDraw,
       AppBar,
       Footer
     },
