@@ -1,6 +1,7 @@
 <template>
   <nav>
     <v-app-bar
+      :clipped-left="clipped.val"
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer.val = !drawer.val" />
